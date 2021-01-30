@@ -1,0 +1,6 @@
+framework module Pods_IBPCompositionalLayout_Sample {
+  umbrella header "Pods-IBPCompositionalLayout-Sample-umbrella.h"
+
+  export *
+  module * { export * }
+}

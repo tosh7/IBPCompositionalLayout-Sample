@@ -12,9 +12,11 @@
 		2BDBDDDD25C5442200D6F350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDDB25C5442200D6F350 /* Main.storyboard */; };
 		2BDBDDDF25C5442900D6F350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDDE25C5442900D6F350 /* Assets.xcassets */; };
 		2BDBDDE225C5442900D6F350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDE025C5442900D6F350 /* LaunchScreen.storyboard */; };
+		F2470B160E2E355A058B2967 /* Pods_IBPCompositionalLayout_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEABFE6C7B628030BA87A40 /* Pods_IBPCompositionalLayout_Sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E3F2EEEC1FD1D53592932A6 /* Pods-IBPCompositionalLayout-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBPCompositionalLayout-Sample.release.xcconfig"; path = "Target Support Files/Pods-IBPCompositionalLayout-Sample/Pods-IBPCompositionalLayout-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		2BDBDDD225C5442200D6F350 /* IBPCompositionalLayout-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBPCompositionalLayout-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDBDDD525C5442200D6F350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDBDDD925C5442200D6F350 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		2BDBDDDE25C5442900D6F350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BDBDDE125C5442900D6F350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BDBDDE325C5442900D6F350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A935FF99A7D89308AFDA39A /* Pods-IBPCompositionalLayout-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBPCompositionalLayout-Sample.debug.xcconfig"; path = "Target Support Files/Pods-IBPCompositionalLayout-Sample/Pods-IBPCompositionalLayout-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		EBEABFE6C7B628030BA87A40 /* Pods_IBPCompositionalLayout_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBPCompositionalLayout_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2470B160E2E355A058B2967 /* Pods_IBPCompositionalLayout_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				2BDBDDD425C5442200D6F350 /* IBPCompositionalLayout-Sample */,
 				2BDBDDD325C5442200D6F350 /* Products */,
+				8A0B617DA23FD3187C2F7989 /* Pods */,
+				2F2B5669ACF55122B2F41F39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,24 @@
 			path = "IBPCompositionalLayout-Sample";
 			sourceTree = "<group>";
 		};
+		2F2B5669ACF55122B2F41F39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBEABFE6C7B628030BA87A40 /* Pods_IBPCompositionalLayout_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A0B617DA23FD3187C2F7989 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A935FF99A7D89308AFDA39A /* Pods-IBPCompositionalLayout-Sample.debug.xcconfig */,
+				1E3F2EEEC1FD1D53592932A6 /* Pods-IBPCompositionalLayout-Sample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BDBDDE625C5442900D6F350 /* Build configuration list for PBXNativeTarget "IBPCompositionalLayout-Sample" */;
 			buildPhases = (
+				79DA4E653FA47898F1DB3145 /* [CP] Check Pods Manifest.lock */,
 				2BDBDDCE25C5442200D6F350 /* Sources */,
 				2BDBDDCF25C5442200D6F350 /* Frameworks */,
 				2BDBDDD025C5442200D6F350 /* Resources */,
+				FDD765B139E412300EFB6426 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +155,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79DA4E653FA47898F1DB3145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IBPCompositionalLayout-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD765B139E412300EFB6426 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IBPCompositionalLayout-Sample/Pods-IBPCompositionalLayout-Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IBPCompositionalLayout-Sample/Pods-IBPCompositionalLayout-Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IBPCompositionalLayout-Sample/Pods-IBPCompositionalLayout-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2BDBDDCE25C5442200D6F350 /* Sources */ = {
@@ -279,6 +348,7 @@
 		};
 		2BDBDDE725C5442900D6F350 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A935FF99A7D89308AFDA39A /* Pods-IBPCompositionalLayout-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +369,7 @@
 		};
 		2BDBDDE825C5442900D6F350 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3F2EEEC1FD1D53592932A6 /* Pods-IBPCompositionalLayout-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
