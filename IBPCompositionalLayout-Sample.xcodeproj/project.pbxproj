@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2BDBDDD625C5442200D6F350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDDD525C5442200D6F350 /* AppDelegate.swift */; };
-		2BDBDDD825C5442200D6F350 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDDD725C5442200D6F350 /* SceneDelegate.swift */; };
 		2BDBDDDA25C5442200D6F350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDDD925C5442200D6F350 /* ViewController.swift */; };
 		2BDBDDDD25C5442200D6F350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDDB25C5442200D6F350 /* Main.storyboard */; };
 		2BDBDDDF25C5442900D6F350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDDE25C5442900D6F350 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		2BDBDDD225C5442200D6F350 /* IBPCompositionalLayout-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBPCompositionalLayout-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDBDDD525C5442200D6F350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BDBDDD725C5442200D6F350 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2BDBDDD925C5442200D6F350 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BDBDDDC25C5442200D6F350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BDBDDDE25C5442900D6F350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				2BDBDDD525C5442200D6F350 /* AppDelegate.swift */,
-				2BDBDDD725C5442200D6F350 /* SceneDelegate.swift */,
 				2BDBDDD925C5442200D6F350 /* ViewController.swift */,
 				2BDBDDDB25C5442200D6F350 /* Main.storyboard */,
 				2BDBDDDE25C5442900D6F350 /* Assets.xcassets */,
@@ -139,7 +136,6 @@
 			files = (
 				2BDBDDDA25C5442200D6F350 /* ViewController.swift in Sources */,
 				2BDBDDD625C5442200D6F350 /* AppDelegate.swift in Sources */,
-				2BDBDDD825C5442200D6F350 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56787CM63P;
 				INFOPLIST_FILE = "IBPCompositionalLayout-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56787CM63P;
 				INFOPLIST_FILE = "IBPCompositionalLayout-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
