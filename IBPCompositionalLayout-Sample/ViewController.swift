@@ -14,12 +14,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let autolayout = view.northLayoutFormat([:], [
+            "collectionView": collectionView
+        ])
+        autolayout("H:|[collectionView]|")
+        autolayout("V:|[collectionView]|")
 
+        setUpCollectionViews()
     }
 
-    private lazy var collectionView: UICollectionView = .init() ※ {
+    private lazy var collectionView: UICollectionView = .init(frame: .zero, collectionViewLayout: UICollectionViewLayout()) ※ {
+
+        $0.backgroundColor = UIColor.white
         $0.dataSource = self
         $0.delegate = self
+        $0.register(LargeCell.self, forCellWithReuseIdentifier: String(describing: LargeCell.self))
     }
 
     // Sectionのレイアウトをここでセットできる形にする
@@ -38,8 +47,15 @@ class ViewController: UIViewController {
             collectionView.reloadData()
         }
     }
+
+    private func setUpCollectionViews() {
+        var sections: [Section] = []
+        sections.append(LargeCellSection())
+        self.sections = sections
+    }
 }
 
+// DataSouce設定
 extension ViewController: UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return sections.count
