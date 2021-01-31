@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     private lazy var collectionView: UICollectionView = .init(frame: .zero, collectionViewLayout: UICollectionViewLayout()) ※ {
 
         $0.backgroundColor = UIColor.white
+        $0.contentInsetAdjustmentBehavior = .never
         $0.dataSource = self
         $0.delegate = self
         $0.register(LargeCell.self, forCellWithReuseIdentifier: String(describing: LargeCell.self))
@@ -50,6 +51,15 @@ class ViewController: UIViewController {
 
     private func setUpCollectionViews() {
         var sections: [Section] = []
+        sections.append(LargeCellSection())
+        sections.append(LargeCellSection())
+        sections.append(LargeCellSection())
+        sections.append(LargeCellSection())
+        sections.append(LargeCellSection())
+        sections.append(LargeCellSection())
+        sections.append(LargeCellSection())
+        sections.append(LargeCellSection())
+        sections.append(LargeCellSection())
         sections.append(LargeCellSection())
         self.sections = sections
     }
