@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,8 @@
 		2BDBDDDD25C5442200D6F350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDDB25C5442200D6F350 /* Main.storyboard */; };
 		2BDBDDDF25C5442900D6F350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDDE25C5442900D6F350 /* Assets.xcassets */; };
 		2BDBDDE225C5442900D6F350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDE025C5442900D6F350 /* LaunchScreen.storyboard */; };
+		2BDBDE0425C6780900D6F350 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE0325C6780900D6F350 /* Section.swift */; };
+		2BDBDE0725C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE0625C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift */; };
 		F2470B160E2E355A058B2967 /* Pods_IBPCompositionalLayout_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEABFE6C7B628030BA87A40 /* Pods_IBPCompositionalLayout_Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,8 @@
 		2BDBDDDE25C5442900D6F350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BDBDDE125C5442900D6F350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BDBDDE325C5442900D6F350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDBDE0325C6780900D6F350 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		2BDBDE0625C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBPCollectionViewCompositionalLayoutInteroperability.swift; sourceTree = "<group>"; };
 		6A935FF99A7D89308AFDA39A /* Pods-IBPCompositionalLayout-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBPCompositionalLayout-Sample.debug.xcconfig"; path = "Target Support Files/Pods-IBPCompositionalLayout-Sample/Pods-IBPCompositionalLayout-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		EBEABFE6C7B628030BA87A40 /* Pods_IBPCompositionalLayout_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBPCompositionalLayout_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,6 +71,8 @@
 				2BDBDDDE25C5442900D6F350 /* Assets.xcassets */,
 				2BDBDDE025C5442900D6F350 /* LaunchScreen.storyboard */,
 				2BDBDDE325C5442900D6F350 /* Info.plist */,
+				2BDBDE0325C6780900D6F350 /* Section.swift */,
+				2BDBDE0625C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift */,
 			);
 			path = "IBPCompositionalLayout-Sample";
 			sourceTree = "<group>";
@@ -85,7 +91,6 @@
 				6A935FF99A7D89308AFDA39A /* Pods-IBPCompositionalLayout-Sample.debug.xcconfig */,
 				1E3F2EEEC1FD1D53592932A6 /* Pods-IBPCompositionalLayout-Sample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -203,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDBDE0725C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift in Sources */,
+				2BDBDE0425C6780900D6F350 /* Section.swift in Sources */,
 				2BDBDDDA25C5442200D6F350 /* ViewController.swift in Sources */,
 				2BDBDDD625C5442200D6F350 /* AppDelegate.swift in Sources */,
 			);
