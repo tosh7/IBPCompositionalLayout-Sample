@@ -20,6 +20,7 @@
 		2BDBDE1625C67DD500D6F350 /* LargeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE1525C67DD500D6F350 /* LargeCell.swift */; };
 		2BDBDE1925C67DDF00D6F350 /* MidiumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE1825C67DDF00D6F350 /* MidiumCell.swift */; };
 		2BDBDE1C25C67DE700D6F350 /* SmallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE1B25C67DE700D6F350 /* SmallCell.swift */; };
+		2BDBDE1F25C6978A00D6F350 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE1E25C6978A00D6F350 /* UIColorExtension.swift */; };
 		F2470B160E2E355A058B2967 /* Pods_IBPCompositionalLayout_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEABFE6C7B628030BA87A40 /* Pods_IBPCompositionalLayout_Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		2BDBDE1525C67DD500D6F350 /* LargeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeCell.swift; sourceTree = "<group>"; };
 		2BDBDE1825C67DDF00D6F350 /* MidiumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiumCell.swift; sourceTree = "<group>"; };
 		2BDBDE1B25C67DE700D6F350 /* SmallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCell.swift; sourceTree = "<group>"; };
+		2BDBDE1E25C6978A00D6F350 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		6A935FF99A7D89308AFDA39A /* Pods-IBPCompositionalLayout-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBPCompositionalLayout-Sample.debug.xcconfig"; path = "Target Support Files/Pods-IBPCompositionalLayout-Sample/Pods-IBPCompositionalLayout-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		EBEABFE6C7B628030BA87A40 /* Pods_IBPCompositionalLayout_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBPCompositionalLayout_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,8 +85,10 @@
 				2BDBDDE025C5442900D6F350 /* LaunchScreen.storyboard */,
 				2BDBDDE325C5442900D6F350 /* Info.plist */,
 				2BDBDDD925C5442200D6F350 /* ViewController.swift */,
+				2BDBDE1E25C6978A00D6F350 /* UIColorExtension.swift */,
 				2BDBDE0325C6780900D6F350 /* Section.swift */,
 				2BDBDE0625C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift */,
+				2BDBDE0F25C67DB900D6F350 /* MIdiumCellSection.swift */,
 				2BDBDE0925C67D1F00D6F350 /* Sections */,
 				2BDBDE0A25C67D2C00D6F350 /* Cells */,
 			);
@@ -95,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				2BDBDE0B25C67DA700D6F350 /* LargeCellSection.swift */,
-				2BDBDE0F25C67DB900D6F350 /* MIdiumCellSection.swift */,
 				2BDBDE1225C67DCB00D6F350 /* SmallCellSection.swift */,
 			);
 			path = Sections;
@@ -250,6 +253,7 @@
 				2BDBDE1C25C67DE700D6F350 /* SmallCell.swift in Sources */,
 				2BDBDDDA25C5442200D6F350 /* ViewController.swift in Sources */,
 				2BDBDE1625C67DD500D6F350 /* LargeCell.swift in Sources */,
+				2BDBDE1F25C6978A00D6F350 /* UIColorExtension.swift in Sources */,
 				2BDBDDD625C5442200D6F350 /* AppDelegate.swift in Sources */,
 				2BDBDE0C25C67DA700D6F350 /* LargeCellSection.swift in Sources */,
 			);
