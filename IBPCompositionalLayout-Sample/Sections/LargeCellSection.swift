@@ -22,7 +22,7 @@ struct LargeCellSection: Section {
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
 
         // groupについてのレイアウト設定
-        let groupSize = NSCollectionLayoutSize(widthDimension: .absolute(UIScreen.main.bounds.width - 40), heightDimension: .absolute(184))
+        let groupSize = NSCollectionLayoutSize(widthDimension: .absolute(100), heightDimension: .absolute(100))
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
 
         // Sectionについてのレイアウト設定
@@ -30,7 +30,7 @@ struct LargeCellSection: Section {
         section.interGroupSpacing = 10
         section.contentInsets = NSDirectionalEdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20)
         // ここでスクロールストップするのか、しないのかの設定を行う
-        section.orthogonalScrollingBehavior = .groupPaging
+        section.orthogonalScrollingBehavior = .continuousGroupLeadingBoundary
 
         return section
     }
