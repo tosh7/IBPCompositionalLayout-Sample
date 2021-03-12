@@ -11,7 +11,7 @@ final class LargeCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
 
-        self.contentView.backgroundColor = UIColor.black
+        self.contentView.backgroundColor = UIColor.random
     }
 
     required init?(coder: NSCoder) {

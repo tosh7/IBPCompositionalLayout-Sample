@@ -28,7 +28,7 @@ struct LargeCellSection: Section {
         // Sectionについてのレイアウト設定
         let section = NSCollectionLayoutSection(group: group)
         section.interGroupSpacing = 10
-        section.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20)
+        section.contentInsets = NSDirectionalEdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20)
         // ここでスクロールストップするのか、しないのかの設定を行う
         section.orthogonalScrollingBehavior = .groupPaging
 
