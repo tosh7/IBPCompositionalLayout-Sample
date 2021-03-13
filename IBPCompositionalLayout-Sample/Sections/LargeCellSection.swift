@@ -22,7 +22,7 @@ struct LargeCellSection: Section {
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
 
         // groupについてのレイアウト設定
-        let groupSize = NSCollectionLayoutSize(widthDimension: .absolute(100), heightDimension: .absolute(100))
+        let groupSize = NSCollectionLayoutSize(widthDimension: .absolute(200), heightDimension: .fractionalHeight(0.2))
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
 
         // Sectionについてのレイアウト設定
