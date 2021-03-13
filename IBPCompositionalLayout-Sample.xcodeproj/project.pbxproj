@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2BDBDDD625C5442200D6F350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDDD525C5442200D6F350 /* AppDelegate.swift */; };
 		2BDBDDDA25C5442200D6F350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDDD925C5442200D6F350 /* ViewController.swift */; };
-		2BDBDDDD25C5442200D6F350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDDB25C5442200D6F350 /* Main.storyboard */; };
 		2BDBDDDF25C5442900D6F350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDDE25C5442900D6F350 /* Assets.xcassets */; };
 		2BDBDDE225C5442900D6F350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDE025C5442900D6F350 /* LaunchScreen.storyboard */; };
 		2BDBDE0425C6780900D6F350 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE0325C6780900D6F350 /* Section.swift */; };
@@ -29,7 +28,6 @@
 		2BDBDDD225C5442200D6F350 /* IBPCompositionalLayout-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBPCompositionalLayout-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDBDDD525C5442200D6F350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDBDDD925C5442200D6F350 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2BDBDDDC25C5442200D6F350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BDBDDDE25C5442900D6F350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BDBDDE125C5442900D6F350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BDBDDE325C5442900D6F350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				2BDBDDD525C5442200D6F350 /* AppDelegate.swift */,
-				2BDBDDDB25C5442200D6F350 /* Main.storyboard */,
 				2BDBDDDE25C5442900D6F350 /* Assets.xcassets */,
 				2BDBDDE025C5442900D6F350 /* LaunchScreen.storyboard */,
 				2BDBDDE325C5442900D6F350 /* Info.plist */,
@@ -88,7 +85,6 @@
 				2BDBDE1E25C6978A00D6F350 /* UIColorExtension.swift */,
 				2BDBDE0325C6780900D6F350 /* Section.swift */,
 				2BDBDE0625C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift */,
-				2BDBDE0F25C67DB900D6F350 /* MIdiumCellSection.swift */,
 				2BDBDE0925C67D1F00D6F350 /* Sections */,
 				2BDBDE0A25C67D2C00D6F350 /* Cells */,
 			);
@@ -99,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				2BDBDE0B25C67DA700D6F350 /* LargeCellSection.swift */,
+				2BDBDE0F25C67DB900D6F350 /* MIdiumCellSection.swift */,
 				2BDBDE1225C67DCB00D6F350 /* SmallCellSection.swift */,
 			);
 			path = Sections;
@@ -192,7 +189,6 @@
 			files = (
 				2BDBDDE225C5442900D6F350 /* LaunchScreen.storyboard in Resources */,
 				2BDBDDDF25C5442900D6F350 /* Assets.xcassets in Resources */,
-				2BDBDDDD25C5442200D6F350 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +258,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2BDBDDDB25C5442200D6F350 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2BDBDDDC25C5442200D6F350 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2BDBDDE025C5442900D6F350 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -417,7 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tosh7.IBPCompositionalLayout-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -438,7 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tosh7.IBPCompositionalLayout-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
