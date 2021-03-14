@@ -4,31 +4,50 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FootlessParser.xcscheme_^#shared#^_</key>
+		<key>FootlessParser.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>IBPCollectionViewCompositionalLayout.xcscheme_^#shared#^_</key>
-		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>NorthLayout.xcscheme_^#shared#^_</key>
+		<key>IBPCollectionViewCompositionalLayout.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-IBPCompositionalLayout-Sample.xcscheme_^#shared#^_</key>
+		<key>NorthLayout.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>2</integer>
 		</dict>
-		<key>※ikemen.xcscheme_^#shared#^_</key>
+		<key>Pods-IBPCompositionalLayout-Sample.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>※ikemen.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>

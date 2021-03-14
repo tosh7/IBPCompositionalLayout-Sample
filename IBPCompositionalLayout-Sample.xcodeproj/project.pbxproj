@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190850F725FCA48E004F6CA2 /* OldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190850F625FCA48E004F6CA2 /* OldViewController.swift */; };
 		2BDBDDD625C5442200D6F350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDDD525C5442200D6F350 /* AppDelegate.swift */; };
 		2BDBDDDA25C5442200D6F350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDDD925C5442200D6F350 /* ViewController.swift */; };
 		2BDBDDDF25C5442900D6F350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDDE25C5442900D6F350 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190850F625FCA48E004F6CA2 /* OldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldViewController.swift; sourceTree = "<group>"; };
 		1E3F2EEEC1FD1D53592932A6 /* Pods-IBPCompositionalLayout-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBPCompositionalLayout-Sample.release.xcconfig"; path = "Target Support Files/Pods-IBPCompositionalLayout-Sample/Pods-IBPCompositionalLayout-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		2BDBDDD225C5442200D6F350 /* IBPCompositionalLayout-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IBPCompositionalLayout-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDBDDD525C5442200D6F350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190850F525FCA473004F6CA2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BDBDDD925C5442200D6F350 /* ViewController.swift */,
+				190850F625FCA48E004F6CA2 /* OldViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		2BDBDDC925C5442200D6F350 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +92,10 @@
 				2BDBDDDE25C5442900D6F350 /* Assets.xcassets */,
 				2BDBDDE025C5442900D6F350 /* LaunchScreen.storyboard */,
 				2BDBDDE325C5442900D6F350 /* Info.plist */,
-				2BDBDDD925C5442200D6F350 /* ViewController.swift */,
 				2BDBDE1E25C6978A00D6F350 /* UIColorExtension.swift */,
 				2BDBDE0325C6780900D6F350 /* Section.swift */,
 				2BDBDE0625C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift */,
+				190850F525FCA473004F6CA2 /* ViewControllers */,
 				2BDBDE0925C67D1F00D6F350 /* Sections */,
 				2BDBDE0A25C67D2C00D6F350 /* Cells */,
 			);
@@ -249,6 +260,7 @@
 				2BDBDE1C25C67DE700D6F350 /* SmallCell.swift in Sources */,
 				2BDBDDDA25C5442200D6F350 /* ViewController.swift in Sources */,
 				2BDBDE1625C67DD500D6F350 /* LargeCell.swift in Sources */,
+				190850F725FCA48E004F6CA2 /* OldViewController.swift in Sources */,
 				2BDBDE1F25C6978A00D6F350 /* UIColorExtension.swift in Sources */,
 				2BDBDDD625C5442200D6F350 /* AppDelegate.swift in Sources */,
 				2BDBDE0C25C67DA700D6F350 /* LargeCellSection.swift in Sources */,

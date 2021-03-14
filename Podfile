@@ -9,5 +9,6 @@ target 'IBPCompositionalLayout-Sample' do
 pod "NorthLayout"
 pod "※ikemen"
 pod 'IBPCollectionViewCompositionalLayout'
+pod 'SnapKit', '~> 5.0.0'
 
 end

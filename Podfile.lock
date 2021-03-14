@@ -1,13 +1,15 @@
 PODS:
   - FootlessParser (0.5.2)
-  - IBPCollectionViewCompositionalLayout (0.6.8)
+  - IBPCollectionViewCompositionalLayout (0.6.9)
   - NorthLayout (5.2.0):
     - FootlessParser (~> 0.4)
+  - SnapKit (5.0.1)
   - "※ikemen (0.7.0)"
 
 DEPENDENCIES:
   - IBPCollectionViewCompositionalLayout
   - NorthLayout
+  - SnapKit (~> 5.0.0)
   - "※ikemen"
 
 SPEC REPOS:
@@ -15,14 +17,16 @@ SPEC REPOS:
     - FootlessParser
     - IBPCollectionViewCompositionalLayout
     - NorthLayout
+    - SnapKit
     - "※ikemen"
 
 SPEC CHECKSUMS:
   FootlessParser: 521916d592fa6cba06cfca6f4b5d4f5a2d49175a
-  IBPCollectionViewCompositionalLayout: d274142c22e2a3b801d54564279c6777c17a4b77
+  IBPCollectionViewCompositionalLayout: bbb29e39ac564666a8c3cdb6633ed944b6feb55b
   NorthLayout: 308a58a8f7d96f316e6399ff6432f8769321bbdf
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   "※ikemen": db03a47c165f9889af8260758087b49f6cdeee2f
 
-PODFILE CHECKSUM: c595f6b317d4b607fbbe7ae43d2b4e2a98abc245
+PODFILE CHECKSUM: 8b0ba0c12c272e03c4133f454cc1af8403762a34
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

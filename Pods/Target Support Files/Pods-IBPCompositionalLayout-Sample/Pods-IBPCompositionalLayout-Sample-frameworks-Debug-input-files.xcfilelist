@@ -2,4 +2,5 @@ ${PODS_ROOT}/Target Support Files/Pods-IBPCompositionalLayout-Sample/Pods-IBPCom
 ${BUILT_PRODUCTS_DIR}/FootlessParser/FootlessParser.framework
 ${BUILT_PRODUCTS_DIR}/IBPCollectionViewCompositionalLayout/IBPCollectionViewCompositionalLayout.framework
 ${BUILT_PRODUCTS_DIR}/NorthLayout/NorthLayout.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
 ${BUILT_PRODUCTS_DIR}/※ikemen/Ikemen.framework
