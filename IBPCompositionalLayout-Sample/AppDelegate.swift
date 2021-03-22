@@ -18,8 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         // ここを変更すると生成されるViewControllerを変更できる
-//        let initialViewController = OldViewController()
-        let initialViewController = ViewController()
+        let initialViewController = OldViewController()
         window?.rootViewController = initialViewController
         return true
     }

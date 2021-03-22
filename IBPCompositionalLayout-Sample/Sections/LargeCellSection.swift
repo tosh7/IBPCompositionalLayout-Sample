@@ -32,19 +32,6 @@ struct LargeCellSection: Section {
         // ここでスクロールストップするのか、しないのかの設定を行う
         section.orthogonalScrollingBehavior = .continuousGroupLeadingBoundary
 
-        // TODO: このメソッドはIBPCompositionalとの併用ができないので、IBPそのものの修正が必要あり
-//        if #available(iOS 14, *) {
-//            if #available(iOS 14.5, *) {} else {
-//                section.visibleItemsInvalidationHandler = { visibleItems, _, _ in
-//                    visibleItems.forEach { item in
-//                        if item.indexPath.row == numberOfItems - 1 {
-//                            section.orthogonalScrollingBehavior = .continuous
-//                        }
-//                    }
-//                }
-//            }
-//        }
-
         return section
     }
 
