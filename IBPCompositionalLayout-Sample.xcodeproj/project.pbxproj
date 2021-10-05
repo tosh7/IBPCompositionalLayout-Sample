@@ -13,7 +13,6 @@
 		2BDBDDDF25C5442900D6F350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDDE25C5442900D6F350 /* Assets.xcassets */; };
 		2BDBDDE225C5442900D6F350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDBDDE025C5442900D6F350 /* LaunchScreen.storyboard */; };
 		2BDBDE0425C6780900D6F350 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE0325C6780900D6F350 /* Section.swift */; };
-		2BDBDE0725C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE0625C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift */; };
 		2BDBDE0C25C67DA700D6F350 /* LargeCellSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE0B25C67DA700D6F350 /* LargeCellSection.swift */; };
 		2BDBDE1025C67DB900D6F350 /* MIdiumCellSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE0F25C67DB900D6F350 /* MIdiumCellSection.swift */; };
 		2BDBDE1325C67DCB00D6F350 /* SmallCellSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDBDE1225C67DCB00D6F350 /* SmallCellSection.swift */; };
@@ -34,7 +33,6 @@
 		2BDBDDE125C5442900D6F350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BDBDDE325C5442900D6F350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BDBDE0325C6780900D6F350 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
-		2BDBDE0625C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBPCollectionViewCompositionalLayoutInteroperability.swift; sourceTree = "<group>"; };
 		2BDBDE0B25C67DA700D6F350 /* LargeCellSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeCellSection.swift; sourceTree = "<group>"; };
 		2BDBDE0F25C67DB900D6F350 /* MIdiumCellSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIdiumCellSection.swift; sourceTree = "<group>"; };
 		2BDBDE1225C67DCB00D6F350 /* SmallCellSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCellSection.swift; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 				2BDBDDE325C5442900D6F350 /* Info.plist */,
 				2BDBDE1E25C6978A00D6F350 /* UIColorExtension.swift */,
 				2BDBDE0325C6780900D6F350 /* Section.swift */,
-				2BDBDE0625C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift */,
 				190850F525FCA473004F6CA2 /* ViewControllers */,
 				2BDBDE0925C67D1F00D6F350 /* Sections */,
 				2BDBDE0A25C67D2C00D6F350 /* Cells */,
@@ -253,7 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDBDE1025C67DB900D6F350 /* MIdiumCellSection.swift in Sources */,
-				2BDBDE0725C6785400D6F350 /* IBPCollectionViewCompositionalLayoutInteroperability.swift in Sources */,
 				2BDBDE1325C67DCB00D6F350 /* SmallCellSection.swift in Sources */,
 				2BDBDE0425C6780900D6F350 /* Section.swift in Sources */,
 				2BDBDE1925C67DDF00D6F350 /* MidiumCell.swift in Sources */,
@@ -409,7 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56787CM63P;
 				INFOPLIST_FILE = "IBPCompositionalLayout-Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,7 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56787CM63P;
 				INFOPLIST_FILE = "IBPCompositionalLayout-Sample/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

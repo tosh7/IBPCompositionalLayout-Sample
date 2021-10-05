@@ -37,6 +37,8 @@ class ViewController: UIViewController {
         $0.dataSource = self
         $0.delegate = self
         $0.register(LargeCell.self, forCellWithReuseIdentifier: String(describing: LargeCell.self))
+        $0.register(MidiumCell.self, forCellWithReuseIdentifier: String(describing: MidiumCell.self))
+
     }
 
     // Sectionのレイアウトをここでセットできる形にする
@@ -58,15 +60,15 @@ class ViewController: UIViewController {
 
     private func setUpCollectionViews() {
         var sections: [Section] = []
+        sections.append(MidiumCellSection())
         sections.append(LargeCellSection())
+        sections.append(MidiumCellSection())
         sections.append(LargeCellSection())
+        sections.append(MidiumCellSection())
         sections.append(LargeCellSection())
+        sections.append(MidiumCellSection())
         sections.append(LargeCellSection())
-        sections.append(LargeCellSection())
-        sections.append(LargeCellSection())
-        sections.append(LargeCellSection())
-        sections.append(LargeCellSection())
-        sections.append(LargeCellSection())
+        sections.append(MidiumCellSection())
         sections.append(LargeCellSection())
         self.sections = sections
     }
